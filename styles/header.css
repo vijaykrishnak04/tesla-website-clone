@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 64px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+.left-section{
+    flex: .75;
+    display: flex;
+    align-items: center;
+}
+.middle-section{
+    padding-left: 63px;
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+}
+.right-section{
+    flex: .75;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+.tesla-logo{
+    width: 128px;   
+    margin-left: 35px;
+}
+.middle-buttons{
+    width: 97px;
+    height: 30px;
+    border: none;
+    background: none;
+    font-weight: 550;
+    font-size: 14px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+}
+.middle-buttons:hover{
+    background-color: rgb(224, 224, 224);
+}
+.right-section-buttons{
+    width: 89px;
+    height: 30px;
+    border: none;
+    background: none;
+    font-weight: 550;
+    font-size: 13;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+}
+.right-section-buttons:hover{
+    background-color: rgb(224, 224, 224);
+}

@@ -1,0 +1,60 @@
+.car{
+    position: relative;
+}
+.text{
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p{
+    font-size: 16px;
+    margin-top: -36px;
+    font-family: monospace;
+    text-decoration: underline;
+    margin-left: 1px;
+}
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+p:hover{
+    text-decoration: underline solid;
+    cursor: pointer;
+}
+.two-buttons{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 617px;
+}
+.custom-order{
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    flex: 1;
+    height: 43px;
+    margin-right: 60px;
+    border-radius: 6px;
+    border: none;
+}
+.existing-inventory{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 12;
+    flex: 1;
+    height: 43px;
+    border-radius: 6px;
+    border: none;
+}
+.custom-order:hover{
+    cursor: pointer;
+}
+.existing-inventory:hover{
+    cursor: pointer;
+}
